@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon" type="image/x-icon">
+    <!--Integrando o CSS ao HTML-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="calculator">
+            
+            <input type="text" id="calc" value="0" />
+            
+            <div class="calculator-keys">
+                <!--Criando botões e atribuindo valores-->
+                
+                <button type="button" class="operator" value="+" onclick="showDisplay('+')"/>+</button>
+                <button type="button" class="operator" value="-" onclick="showDisplay('-')">-</button>
+                <button type="button" class="operator" value="*" onclick="showDisplay('*')">*</button>
+                <button type="button" class="operator" value="/" onclick="showDisplay('/')">/</button>
+
+                <button type="button" value="7" onclick="showDisplay('7')">7</button>
+                <button type="button" value="8" onclick="showDisplay('8')">8</button>
+                <button type="button" value="9" onclick="showDisplay('9')">9</button>  
+
+                <button type="button" value="4" onclick="showDisplay('4')">4</button>
+                <button type="button" value="5" onclick="showDisplay('5')">5</button>
+                <button type="button" value="6" onclick="showDisplay('6')">6</button>
+
+                <button type="button" value="1" onclick="showDisplay('1')">1</button>
+                <button type="button" value="2" onclick="showDisplay('2')">2</button>
+                <button type="button" value="3" onclick="showDisplay('3')">3</button>  
+            
+                <button type="button" value="0" onclick="showDisplay('0')">0</button>
+                <button type="button" class="decimal" value="." onclick="showDisplay('.')">.</button>
+                <button type="button" class="all-clear" value="AC" onclick="clr()">AC</button>
+
+                <button type="button" class="equal-sign" value="=" onclick="solve()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://github.com/MarqDev" target="_blank">
+    <img src="img/github-icon.png" alt="" class="github-icon">
+    
+    <footer>
+        <a href="https://github.com/MarqDev" target="_blank">
+            <img src="img/Logo MarqDev6.png" alt="" class="marqdev-logo">
+    </footer>
+
+    <!--Integrando o JavaScript ao HTML-->
+    <script src="/script.js"></script>
+
+</body>
+</html>
