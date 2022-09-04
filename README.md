@@ -8,7 +8,7 @@ First_Calculator é um pequeno projeto Web utilizando HTML, CSS e JavaScript com
 Trata-se de uma simples calculadora cujo principal objetivo é se aprofundar na base do desenvolvimento Web.  
 
 ## Layout web
-![Web 1](https://github.com/MarqDev/Assets/blob/main/Lightsaber%20800px.jpg)    
+![Web 1](https://github.com/MarqDev/Assets/blob/main/First_Calculator_640px.jpg)   
 
 # Tecnologias utilizadas
 ## Front End
